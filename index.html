@@ -12,17 +12,24 @@
       <h1>Irish Limerick Generator</h1>
     </header>
     <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your topic "
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The result will go here</div>
+      <div class="container">
+        <form>
+          <input
+            type="text" class="instructions"
+            placeholder="Enter your topic "
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <br/>
+        <br/>
+        <div class="newtext">The result will go here
+            <br>
+            and here
+        </div>
+    
     </main>
 
     <footer>
@@ -32,6 +39,7 @@
       open-sourced on
       <a href="https://github.com/FedDawb/Irishsayings-AI-Generator">Github</a>
     </footer>
+      </div>
 
     <script src="src/index.js"></script>
   </body>
